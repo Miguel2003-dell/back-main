@@ -10,7 +10,7 @@
     ],
     "routes": [
         {
-            "src": "/productos",
+            "src": "/productos/(.*)",
             "dest": "src/index.js"
         }
     ]
