@@ -1,5 +1,7 @@
 {
     "version": 2,
+    "frameworks": "node",
+    "name": "LuckyCondoms",
     "builds": [
         {
             "src": "src/index.js",
@@ -8,7 +10,7 @@
     ],
     "routes": [
         {
-            "src": "/api/(.*)",
+            "src": "/(.*)",
             "dest": "src/index.js"
         }
     ]
